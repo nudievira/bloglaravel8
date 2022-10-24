@@ -13,12 +13,12 @@
 
 
   <!-- CSS Libraries -->
-  <link rel="stylesheet" href="{{ asset ('template/node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css') }}">
-  <link rel="stylesheet" href="{{ asset ('template/node_modules/select2/dist/css/select2.min.css') }}">
+  <link rel="stylesheet" href="{{ asset ('node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css') }}">
+  <link rel="stylesheet" href="{{ asset ('node_modules/select2/dist/css/select2.min.css') }}">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="{{ asset ('template/assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset ('template/assets/css/components.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/components.css') }}">
   
 </head>
 
@@ -34,7 +34,7 @@
           </ul>
         </form>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="{{ asset ('template/assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
+            <img alt="image" src="{{ asset ('assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, {{ Auth::user()->name }}</div></a>
             <div class="dropdown-menu dropdown-menu-right">
               <a href="features-profile.html" class="dropdown-item has-icon">
@@ -89,14 +89,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="{{ asset ('template/assets/js/stisla.js') }}"></script>
+  <script src="{{ asset ('assets/js/stisla.js') }}"></script>
 
   <!-- JS Libraies -->
 
   <!-- Template JS File -->
-  <script src="{{ asset ('template/assets/js/scripts.js') }}"></script>
-  <script src="{{ asset ('template/assets/js/custom.js') }}"></script>
-  <script src="{{ asset ('template/node_modules/select2/dist/js/select2.full.min.js') }}"></script>
+  <script src="{{ asset ('assets/js/scripts.js') }}"></script>
+  <script src="{{ asset ('assets/js/custom.js') }}"></script>
+  <script src="{{ asset ('node_modules/select2/dist/js/select2.full.min.js') }}"></script>
 
   <!-- Page Specific JS File -->
 </body>
